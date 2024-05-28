@@ -1,0 +1,151 @@
+/* Applying a box-sizing rule to all elements */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+/* Set a default font family */
+body{
+    font-family:Arial sans-serif;
+    background: url(./images/image.png) no-repeat center rgba(0,0,0,0.3);
+    background-size:cover;
+    background-blend-mode: multiply;
+
+}
+ /* Aligning navigation to the right */
+header{
+    font-size: 10px;
+    display: flex; 
+    justify-content:space-evenly;
+    align-items:center;
+    background-color: #038F62;
+       
+}
+/* Style div within Header */
+.capacity{
+    font-size:25.5px;
+    font-weight: bold; 
+    background-color: white;
+    padding: 40px;
+    color:#227648;
+    
+}
+/* Styling of the navigation bar */
+.main-nav ul{
+    list-style-type: none;
+    display: flex;
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+/* Adding Spaces between navs */
+.main-nav li{
+    margin-right: 0px;
+    
+}
+/* Styling the Link */
+.main-nav a{
+    text-decoration:none;
+    color: white;
+    font-weight: bolder;
+}
+/* Adding  Hover Effet */
+.main-nav a :hover{
+    color:aliceblue
+}
+
+/* Styling the content in the middle of the page */
+
+.simon{
+    display: flex;
+    font-size: 3rem;
+    color: white;
+    width:53%;
+    justify-content: center;
+    /* background-color:rgb(9, 4, 4); */
+    margin-left:25%;
+    margin-top: 17.5%;
+   
+}
+.div{
+    display: flex;
+    font-size: 3rem;
+    color: white;
+    width:53%;
+    justify-content: center;
+    /* background-color:rgb(9, 4, 4);  */
+    margin-left:25%;
+    margin-top: 0.5%;
+    color: green;
+    padding: 10px;
+    font-style: italic;
+}
+
+.div2{
+    font-size: 3rem;
+    color: white;
+    width:100%;
+    justify-content: center;
+    background-color: #303841; 
+    margin-top: 20.5%;
+    padding: 60px;
+    padding: bottom 50px;
+    text-align: center; 
+    
+}
+
+p{ margin-top: 25px;
+    font-size:15px;
+    font-style: italic;
+ 
+}
+
+ul{
+    display: flex;
+    font-size:12px;
+    list-style-type:none;
+    gap: 30px;
+    margin-top:50px;
+    text-align: center;
+    justify-content: center;
+}
+
+.div2 li{
+    background-repeat: no-repeat;
+    background-size: 30px 20px;
+    padding-left:30px; 
+    margin-bottom:10px; 
+    line-height: 30px;
+    color: white;
+}
+ .div2 li.mail{
+    background-image: url(./images/email.png);
+    border-radius: 10px;
+    
+    
+}
+
+.div2 li.facebook{
+    background-image: url(./images/facebook.jpg);
+    border-radius: 10px;
+}
+
+.div2 li.twitter{
+    background-image: url(./images/twitter.png);
+    border-radius: 10px;
+}
+
+
+.div2 li.github{
+    background-image: url(./images/github.png);
+    border-radius: 10px;
+}
+
+.div2 li.call{
+    background-image:url(./images/phone.png);
+    border-radius: 10px;
+}
+
+.rule{
+    color: #038F62;
+}

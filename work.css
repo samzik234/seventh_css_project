@@ -1,0 +1,48 @@
+/* Applying a box-sizing rule to all elements */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+/* Set a default font family */
+body{
+    font-family:Arial sans-serif;
+    /* background-image: url(./); */
+    color:black;
+}
+ /* Aligning navigation to the right */
+header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: green;
+}
+/* Styling of the navigation bar */
+.main-nav ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    display: flex;
+    
+}
+/* Adding Spaces between navs */
+.main-nav li{
+    margin-right: 20px;
+}
+/* Styling the Link */
+.main-nav a{
+    text-decoration:none;
+    color: black;
+    font-weight: bold;
+}
+/* Adding  Hover Effet */
+.main-nav a :hover{
+    color:aliceblue
+}
+
+.workdiv li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    
+}
